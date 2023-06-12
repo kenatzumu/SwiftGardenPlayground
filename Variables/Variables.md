@@ -1,4 +1,4 @@
-# Variables
+# First steps in Swift
 
 ## Types: **`String` | `Int` | `Double` | `Bool`**
 
