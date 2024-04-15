@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260DEA532BCD667000A122C6 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DEA522BCD667000A122C6 /* HexagonParameters.swift */; };
+		260DEA552BCD675000A122C6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DEA542BCD675000A122C6 /* BadgeBackground.swift */; };
+		260DEA572BCD6AA100A122C6 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DEA562BCD6AA100A122C6 /* BadgeSymbol.swift */; };
+		260DEA592BCD6B5800A122C6 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DEA582BCD6B5800A122C6 /* RotatedBadgeSymbol.swift */; };
+		260DEA5B2BCD6B7E00A122C6 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DEA5A2BCD6B7E00A122C6 /* Badge.swift */; };
 		261D704C2BCC7DB300A8382D /* SwiftShroomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D704B2BCC7DB300A8382D /* SwiftShroomsApp.swift */; };
 		261D704E2BCC7DB300A8382D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D704D2BCC7DB300A8382D /* ContentView.swift */; };
 		261D70502BCC7DB500A8382D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261D704F2BCC7DB500A8382D /* Assets.xcassets */; };
@@ -24,6 +29,11 @@
 
 /* Begin PBXFileReference section */
 		260DEA502BCD428F00A122C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		260DEA522BCD667000A122C6 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		260DEA542BCD675000A122C6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		260DEA562BCD6AA100A122C6 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		260DEA582BCD6B5800A122C6 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		260DEA5A2BCD6B7E00A122C6 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		261D70482BCC7DB300A8382D /* SwiftShrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftShrooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		261D704B2BCC7DB300A8382D /* SwiftShroomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShroomsApp.swift; sourceTree = "<group>"; };
 		261D704D2BCC7DB300A8382D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260DEA512BCD666200A122C6 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				260DEA5A2BCD6B7E00A122C6 /* Badge.swift */,
+				260DEA542BCD675000A122C6 /* BadgeBackground.swift */,
+				260DEA562BCD6AA100A122C6 /* BadgeSymbol.swift */,
+				260DEA582BCD6B5800A122C6 /* RotatedBadgeSymbol.swift */,
+				260DEA522BCD667000A122C6 /* HexagonParameters.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		261D703F2BCC7DB200A8382D = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +114,7 @@
 		261D70652BCC86CB00A8382D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				260DEA512BCD666200A122C6 /* Badges */,
 				261D70722BCD2C5C00A8382D /* Helpers */,
 				261D70712BCD2C0300A8382D /* Landmarks */,
 				261D704D2BCC7DB300A8382D /* ContentView.swift */,
@@ -208,11 +231,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				261D704E2BCC7DB300A8382D /* ContentView.swift in Sources */,
+				260DEA5B2BCD6B7E00A122C6 /* Badge.swift in Sources */,
 				261D705C2BCC826000A8382D /* MapView.swift in Sources */,
 				261D704C2BCC7DB300A8382D /* SwiftShroomsApp.swift in Sources */,
 				261D70702BCD2B9800A8382D /* FavoriteButton.swift in Sources */,
+				260DEA532BCD667000A122C6 /* HexagonParameters.swift in Sources */,
+				260DEA592BCD6B5800A122C6 /* RotatedBadgeSymbol.swift in Sources */,
+				260DEA572BCD6AA100A122C6 /* BadgeSymbol.swift in Sources */,
 				261D706B2BCC8C8200A8382D /* LandmarkList.swift in Sources */,
 				261D706D2BCC8DD400A8382D /* LandmarkDetail.swift in Sources */,
+				260DEA552BCD675000A122C6 /* BadgeBackground.swift in Sources */,
 				261D705A2BCC81B100A8382D /* CircleImage.swift in Sources */,
 				261D70622BCC854200A8382D /* Landmark.swift in Sources */,
 				261D70692BCC879000A8382D /* LandmarkRow.swift in Sources */,
