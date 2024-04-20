@@ -9,9 +9,9 @@ SwiftUI is a modern way to declare user interfaces for any Apple platform. Creat
 
 ### Screenshots:
 <p align="center">
-  <img src="Assets/SwiftShrooms1.png" width="300" />
-  <img src="Assets/SwiftShrooms2.png" width="300" /> 
-  <img src="Assets/SwiftShrooms3.png" width="300" />
+  <img src="Assets/SwiftShrooms1.png" width="200" />
+  <img src="Assets/SwiftShrooms2.png" width="200" /> 
+  <img src="Assets/SwiftShrooms3.png" width="200" />
 </p>
 
 ---
