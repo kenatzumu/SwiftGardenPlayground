@@ -1,4 +1,4 @@
-# swift-garden
+# SwiftGardenPlayground
 Explore the jungle of Swift coding with a collection of learning resources. 🪴
 
 ### SwiftShrooms: Introducing SwiftUI
